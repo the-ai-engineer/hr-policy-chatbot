@@ -10,21 +10,6 @@ A company's HR team is drowning in repetitive questions. Employees keep asking t
 
 This chatbot searches HR policy documents and gives accurate answers with citations back to the source.
 
-## How It Works
-
-1. HR uploads policy documents (PDF, Markdown)
-2. Documents are chunked, embedded, and stored in a vector database
-3. Employee asks a question through the chat interface
-4. The system retrieves relevant document chunks and generates an answer with citations
-
-## Tech Stack
-
-- **Backend:** Python, FastAPI, uv
-- **Database:** PostgreSQL with pgvector
-- **AI:** Claude API for generation, embeddings for retrieval
-- **Frontend:** Next.js
-- **Deployment:** Docker Compose
-
 ## Course Progression
 
 This project is built across the course modules:
@@ -37,7 +22,7 @@ This project is built across the course modules:
 
 ## Getting Started
 
-The starting point is the project brief in `docs/project-brief.md`. This is the raw client problem before any planning.
+The starting point is the project brief in `docs/project-brief.md`. This is the raw client problem before any planning. Sample HR policy documents are in `sample-docs/`.
 
 ```bash
 git clone https://github.com/the-ai-engineer/hr-policy-chatbot.git
